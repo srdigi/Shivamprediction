@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shivam Prediction ❤️ | Cricket Analysis</title>
 
-<!-- META PIXEL : PERMANENT SAFE -->
+<!-- META PIXEL : FINAL SAFE (NO VALUE / NO CURRENCY EVER) -->
 <script>
 !function(f,b,e,v,n,t,s){
 if(f.fbq)return;
 n=f.fbq=function(){
-n.callMethod ? n.callMethod.apply(n,arguments) : n.queue.push(arguments)
-};
+n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
 if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';
 n.queue=[];
@@ -18,7 +21,7 @@ s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)
 }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
-/* INIT – NO ADVANCED MATCHING */
+/* INIT – AUTO CONFIG OFF */
 fbq('init','33596837016598779',{}, {autoConfig:false});
 
 /* ONLY PAGEVIEW */
@@ -30,17 +33,6 @@ fbq('track','PageView');
 src="https://www.facebook.com/tr?id=33596837016598779&ev=PageView&noscript=1"/>
 </noscript>
 <!-- END META PIXEL -->
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Shivam Prediction ❤️ | Cricket Analysis</title>
-
-<!-- META PREVIEW -->
-<meta property="og:title" content="Shivam Prediction ❤️">
-<meta property="og:description" content="28,252+ Active Members | Professional Cricket Analysis & Live Updates">
-<meta property="og:type" content="website">
-<meta property="og:image" content="shivam-logo.png">
-<meta property="og:url" content="https://t.me/+rJvPQjNYTegyMmVl">
 
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif;}
@@ -130,7 +122,8 @@ padding:10px;border-radius:12px;font-size:12px;
 <a id="joinTelegram"
    class="join-btn"
    href="https://t.me/+rJvPQjNYTegyMmVl"
-   target="_blank">
+   target="_blank"
+   rel="noopener noreferrer">
 🚀 Subscribe Now Free
 </a>
 
@@ -147,10 +140,15 @@ Professional Cricket Analysis & Updates
 
 </div>
 
-<!-- SUBSCRIBE EVENT ON CLICK -->
+<!-- FINAL SAFE CLICK TRACKING -->
 <script>
+let clicked = false;
 document.getElementById("joinTelegram").addEventListener("click", function () {
-    fbq('track', 'Subscribe');   // NO value, NO currency
+  if(clicked) return;
+  clicked = true;
+
+  // ✅ CUSTOM EVENT ONLY
+  fbq('trackCustom','TelegramJoinClick');
 });
 </script>
 
